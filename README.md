@@ -19,3 +19,8 @@
 
 2.start json server 
 3.create a form in admin 
+
+4. creating redux
+ -userAuthentication 
+ -product reducer 
+ 

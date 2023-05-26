@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import {useDispatch} from "react-redux"
 import './Admin.css'
 import {
   Button,
@@ -11,6 +11,7 @@ import {
 
  
 } from '@chakra-ui/react'
+import { addproduct } from '../Redux/ProductReducer/action';
  let initialstate= {
   image:"",
   brand:"",
@@ -21,7 +22,7 @@ import {
 
 const Admin = () => {
   const [product, setproduct]= useState(initialstate);
-
+   const dispatch = useDispatch()
   const handelchange= (e)=>{
     
     const {name, value}= e.target; 
@@ -35,14 +36,15 @@ const Admin = () => {
 
   const handelsubmit= (e)=>{
     e.preventDefault();
-    console.log(product);
-    setproduct(initialstate);
+    dispatch(addproduct(product));
+    // console.log(product);
+    // setproduct(initialstate);
      
   } 
 
-  useEffect(() => {
-    console.log(product);
-  }, [product]);
+  // useEffect(() => {
+  //   console.log(product);
+  // }, [product]);
 
   
       return (
@@ -61,25 +63,30 @@ const Admin = () => {
           <FormLabel>
             Image
           </FormLabel>
-          <Input 
-            
-            type="url" 
-            name= "image"
-            value={product.image}
-            onChange={(e)=>handelchange(e)
-            }
-            placeholder='Enter url' />
 
+          
+       <Input  type="url" placeholder='Enter Url'
+             name= "image"
+            value={product.image}
+            onChange={(e)=>handelchange(e)}
+   
+          />
+
+
+          
           <FormLabel>
-            Brand Name
+           Brand
           </FormLabel>
-          <Input  type="text" 
-            placeholder='Enter brand'
+
+          
+       <Input  type="text" placeholder='Enter Text'
              name= "brand"
             value={product.brand}
             onChange={(e)=>handelchange(e)}
-
+   
           />
+
+
 
           <FormLabel>
           Price
@@ -105,10 +112,13 @@ const Admin = () => {
             <Select 
          
             name="gender"
-            defaultValue="male"
+          
             onChange={(e)=>handelchange(e)}
              >
+             
+             <option value=' '   >Select</option>
             <option value='male'   >Male</option>
+
             <option value='female' >Female</option>
             <option value='kids'   >Kids</option>
         </Select>

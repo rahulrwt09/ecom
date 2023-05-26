@@ -1,3 +1,13 @@
 {
-  "Products": []
+  "Products": [
+    {
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230120/4mly/63caae35aeb269c651ef0d39/-288Wx360H-465634623-navy-MODEL.jpg",
+      "brand": "Colourblock Crew-Neck T-Shirt",
+      "price": 400,
+      "description": "Regular Fit Package contains: 1 t-shirt Machine wash Cotton Product Code: 465634623002 MRP : Rs. 999.00 inclusive of all taxes(MRP changes as per size selection) Net Qty : 1N Marketed By : FROST CLOTHINGS, E-67, 1ST FLOOR, SEC-7, NOIDA, UTTAR PRADESH - 201301 Manufactured By : FROST CLOTHINGS, E-67, 1ST FLOOR, SEC-7, NOIDA, UTTAR PRADESH - 201301",
+      "gender": "male",
+      "id": 1
+    }
+    
+  ]
 }
