@@ -1,13 +1,52 @@
 {
   "Products": [
     {
-      "image": "https://assets.ajio.com/medias/sys_master/root/20230120/4mly/63caae35aeb269c651ef0d39/-288Wx360H-465634623-navy-MODEL.jpg",
-      "brand": "Colourblock Crew-Neck T-Shirt",
-      "price": 400,
-      "description": "Regular Fit Package contains: 1 t-shirt Machine wash Cotton Product Code: 465634623002 MRP : Rs. 999.00 inclusive of all taxes(MRP changes as per size selection) Net Qty : 1N Marketed By : FROST CLOTHINGS, E-67, 1ST FLOOR, SEC-7, NOIDA, UTTAR PRADESH - 201301 Manufactured By : FROST CLOTHINGS, E-67, 1ST FLOOR, SEC-7, NOIDA, UTTAR PRADESH - 201301",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOKp-ZLfH5EHz0J3BrhOLEMRgR7SCEYzoQQ&usqp=CAU",
+      "brand": "Striped Crew-Neck T-Shirt",
+      "price": 380,
+      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
       "gender": "male",
       "id": 1
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOKp-ZLfH5EHz0J3BrhOLEMRgR7SCEYzoQQ&usqp=CAU",
+      "brand": "Striped Crew-Neck T-Shirt",
+      "price": 380,
+      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220623/JbqP/62b3819faeb26921af423ca1/-473Wx593H-464531848-navy-MODEL4.jpg",
+      "brand": "Striped Crew-Neck T-Shirt",
+      "price": 350,
+      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
+      "gender": "kids",
+      "id": 3
+    },
+    {
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230424/B9WF/6446a57d711cf97ba74183ca/-473Wx593H-466091602-multi-MODEL2.jpg",
+      "brand": "Pack of 5 Graphic Print Crew-Neck T-Shirts",
+      "price": 800,
+      "description": "Package contains: 5 t-shirts Hand wash Cotton Product Code: 466091602001",
+      "gender": "kids",
+      "id": 4
+    },
+    {
+      "image": "https://assets.ajio.com/medias/sys_master/root/20221212/5tCC/63976766aeb269659ce45206/-473Wx593H-465425528-white-MODEL.jpg",
+      "brand": "Floral Print Polo T-Shirt",
+      "price": 600,
+      "description": "Regular Fit Package contains: 1 t-shirt Machine wash",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "image": "https://assets.ajio.com/medias/sys_master/root/20221212/CA7U/63976771aeb269659ce452b1/-473Wx593H-465425528-white-MODEL6.jpg",
+      "brand": "Polo T-Shirt",
+      "price": 233,
+      "description": "Regular Fit Package contains: 1 t-shirt Machine wash",
+      "gender": "male",
+      "id": 6
     }
-    
   ]
 }
