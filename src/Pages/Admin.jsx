@@ -12,6 +12,7 @@ import {
  
 } from '@chakra-ui/react'
 import { addproduct } from '../Redux/ProductReducer/action';
+import Navbar from '../Components/Navbar';
  let initialstate= {
   image:"",
   brand:"",
@@ -48,7 +49,20 @@ const Admin = () => {
 
   
       return (
-       <div className='add'>
+
+   
+        <>
+        <Navbar heading="Add Product"/>
+       <div style={{
+
+       marginTop: '80px',
+      width: '60%',
+      margin: 'auto',
+       padding: '40px',
+        border: '1px solid black',
+
+  
+  }}>
   
       <form onSubmit={(e)=>{
         handelsubmit(e);
@@ -134,6 +148,7 @@ const Admin = () => {
          </form>
         
     </div>
+    </>
     
   )
 }

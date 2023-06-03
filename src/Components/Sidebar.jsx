@@ -1,9 +1,53 @@
-import React from 'react'
+import { useEditable } from '@chakra-ui/react';
+import React, { useEffect, useState } from 'react'
+import { useSearchParams } from 'react-router-dom';
 
 const Sidebar = () => {
+  const [category, setcategory] = useState([]);
+  const [searchparams, setparams]= useSearchParams();
+   console.log(searchparams.getAll("category")); 
+  const handelchange= (e)=>{
+    let newcategory= [...category]
+    let value= e.target.value;
+
+    if(newcategory.includes(value))
+    {
+     newcategory.splice(newcategory.indexOf(value), 1);
+
+    }
+    else{
+       newcategory.push(value);
+      
+    }
+    setcategory(newcategory)
+    
+  }
+
+  useEffect(()=>{
+    let params= {
+      category
+    }
+   setparams(params)
+  },[category]);
+
+
   return (
-    <div>
-       sidebar
+    <div >
+       <h3>Filter by</h3>
+      <div>
+        <input type='checkbox' value="male" onChange={handelchange}/>
+        <label>Men</label>
+      </div>
+
+      <div>
+        <input type='checkbox' value="female" onChange={handelchange}/>
+        <label>Female</label>
+      </div>
+
+      <div>
+        <input type='checkbox' value="kids" onChange={handelchange}/>
+        <label>Kids</label>
+      </div>
     </div>
   )
 }

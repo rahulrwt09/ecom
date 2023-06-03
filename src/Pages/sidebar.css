@@ -1,0 +1,9 @@
+.sidebar{
+    display: flex;
+    gap: 10px;
+   width: 900px;
+position:fixed;
+  top: 70 px;
+  height: 650px;
+  overflow-x: auto; 
+}

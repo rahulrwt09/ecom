@@ -6,12 +6,12 @@ const initialstate= {
     isLoading:false,
     isError:false,
 }
-export const reducer =(state=initialstate, {type, paylaod})=>{
+export const reducer =(state=initialstate, {type, payload})=>{
    switch(type){
     case LOGIN_REQUEST:
         return {...state,isLoading:true }
     case LOGIN_SUCCESS:
-        return {...state, isLoading:false, isAuth:true, token:paylaod}
+        return {...state, isLoading:false, isAuth:true, token:payload}
      case LOGIN_FAILURE:
         return{...state, isLoading:false,isError:true}
     default:

@@ -15,6 +15,7 @@ export const login =(usedata)=> (dispatch)=>{
     dispatch(loginrequest());
     axios.post("https://reqres.in/api/login", usedata)
     .then((res)=>{
+        
      dispatch(loginsuccess(res.data.token))
     })
     .catch((err)=>{

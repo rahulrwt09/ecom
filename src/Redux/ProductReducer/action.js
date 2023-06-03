@@ -29,11 +29,12 @@ export const addproduct = (payload) => (dispatch) => {
     });
 };
 
-export const getproduct = () => (dispatch) => {
+export const getproduct = (dispatch) => {
   dispatch(productrequest());
   axios
     .get("http://localhost:8080/Products")
     .then((res) => {
+      
       dispatch(getproductsuccess(res.data));
     })
     .catch(() => {

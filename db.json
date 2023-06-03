@@ -1,52 +1,56 @@
 {
   "Products": [
-    {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOKp-ZLfH5EHz0J3BrhOLEMRgR7SCEYzoQQ&usqp=CAU",
-      "brand": "Striped Crew-Neck T-Shirt",
-      "price": 380,
-      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
-      "gender": "male",
-      "id": 1
-    },
-    {
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzOKp-ZLfH5EHz0J3BrhOLEMRgR7SCEYzoQQ&usqp=CAU",
-      "brand": "Striped Crew-Neck T-Shirt",
-      "price": 380,
-      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
-      "gender": "female",
-      "id": 2
-    },
-    {
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220623/JbqP/62b3819faeb26921af423ca1/-473Wx593H-464531848-navy-MODEL4.jpg",
-      "brand": "Striped Crew-Neck T-Shirt",
-      "price": 350,
-      "description": "Cotton Regular Fit Package contains: 1-t-shirt Machine wash Product Code: 464531848005",
-      "gender": "kids",
-      "id": 3
-    },
-    {
-      "image": "https://assets.ajio.com/medias/sys_master/root/20230424/B9WF/6446a57d711cf97ba74183ca/-473Wx593H-466091602-multi-MODEL2.jpg",
-      "brand": "Pack of 5 Graphic Print Crew-Neck T-Shirts",
-      "price": 800,
-      "description": "Package contains: 5 t-shirts Hand wash Cotton Product Code: 466091602001",
-      "gender": "kids",
-      "id": 4
-    },
-    {
-      "image": "https://assets.ajio.com/medias/sys_master/root/20221212/5tCC/63976766aeb269659ce45206/-473Wx593H-465425528-white-MODEL.jpg",
-      "brand": "Floral Print Polo T-Shirt",
-      "price": 600,
-      "description": "Regular Fit Package contains: 1 t-shirt Machine wash",
-      "gender": "male",
-      "id": 5
-    },
-    {
-      "image": "https://assets.ajio.com/medias/sys_master/root/20221212/CA7U/63976771aeb269659ce452b1/-473Wx593H-465425528-white-MODEL6.jpg",
-      "brand": "Polo T-Shirt",
-      "price": 233,
-      "description": "Regular Fit Package contains: 1 t-shirt Machine wash",
-      "gender": "male",
-      "id": 6
-    }
+    
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230405/S7LC/642d74b3711cf97ba70c370c/veirdo_black_oversized_graphic_t-shirt.jpg",
+        "brand": "VEIRDO",
+        "title": "Oversized Graphic T-Shirt",
+        "price": 456,
+        "gender": "male"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20221213/zphP/63979380f997ddfdbdcfcc5b/kryptic_white_floral_print_polo_t-shirt.jpg",
+        "brand": "Kryptic",
+        "title": "Floral Print Polo T-Shirt",
+        "price": 360,
+        "gender": "female"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20220222/47Wh/6214037cf997dd03e2e02a57/teamspirit_blue_jacquard_striped_crew-neck_t-shirt.jpg",
+        "brand": "Teamspirit",
+        "title": "Jacquard Striped Crew-Neck T-shirt",
+        "price": 165,
+        "gender": "kids"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20220511/irm1/627b43c6f997dd03e2a557c4/bullmer_multicoloured_pack_of_3_graphic_print_crew-neck_t-shirts.jpg",
+        "brand": "Bullmer",
+        "title": "Pack of 3 Graphic Print Crew-Neck T-shirts",
+        "price": 699,
+        "gender": "female"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230424/72eR/6446a57d711cf97ba741844a/hellcat_multicoloured_pack_of_5_graphic_print_crew-neck_t-shirts.jpg",
+        "brand": "Hellcat",
+        "title": "Pack of 5 Graphic Print Crew-Neck T-Shirts",
+        "price": 799,
+        "gender": "male"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230112/gtFV/63bf2013aeb269c651d978d8/ausk_multicoloured_colourblock_crew-neck_t-shirt.jpg",
+        "brand": "AUSK",
+        "title": "Colourblock Crew-Neck T-Shirt",
+        "price": 288,
+        "gender": "kids"
+      },
+      {
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230317/0U8h/64142daef997dde6f404dc72/ausk_white_contrast_striped_polo_t-shirt.jpg",
+        "brand": "AUSK",
+        "title": "Contrast Striped Polo T-Shirt",
+        "price": 270,
+        "gender": "kids"
+      }
+   
+    
   ]
 }
